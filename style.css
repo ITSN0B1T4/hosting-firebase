@@ -1796,3 +1796,192 @@ label {
 ::-webkit-scrollbar-thumb:hover {
   background: hsla(217, 100%, 12%, 0.479);
 }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+  .text {font-size: 11px}
+}
+
+//primary button
+.btn.btn-primary {
+    transition: .4s;
+    background: #FFA000;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
+    margin: 10px;
+}
+.btn.btn-primary:hover {
+    transition: .4s;
+    background: #FFA000;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
+}
+.btn.btn-primary:active {
+    transition: .2s;
+    background: #FFA000;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFA000;
+}
+.btn {
+    height: 36px;
+    display: inline-block;
+    font: 14px/36px "Roboto", sans-serif !important;
+    padding: 0 16px;
+    border-radius: 2px;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+//secondary button
+.btn.btn-secondary {
+    transition: .4s;
+    background: #FFF;
+    color: #FFA000;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+    margin: 10px;
+}
+.btn.btn-secondary:hover {
+    transition: .4s;
+    background: #FFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+}
+.btn.btn-secondary:active {
+    transition: .2s;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #FFF;
+}
+.btn {
+    height: 36px;
+    display: inline-block;
+    font: 14px/36px "Roboto", sans-serif !important;
+    padding: 0 16px;
+    border-radius: 2px;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+//tertiary button
+.btn.btn-tertiary {
+    transition: .4s;
+    background: #FFF;
+    color: #007AFF;
+    border-radius: 6px;
+    border: 1px solid #007AFF;
+    margin: 10px;
+}
+.btn.btn-tertiary:hover {
+    transition: .4s;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #007AFF;
+}
+.btn.btn-tertiary:active {
+    transition: .2s;
+    background: #FFF;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.26);
+    border: 1px solid #007AFF;
+}
+.btn {
+    height: 36px;
+    display: inline-block;
+    font: 14px/36px "Roboto", sans-serif !important;
+    padding: 0 16px;
+    border-radius: 2px;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+//flat button
+.btn.btn-flat {
+    transition: .4s;
+    background: #FFF;
+    color: #FFA000;
+    border-radius: 6px;
+    border: -1px solid rgba(101, 101, 170, 0.12);
+    margin: 10px;
+}
+.btn.btn-flat:hover {
+    transition: .4s;
+    background: rgba(255, 160, 0, 0.12);
+    border: -1px solid rgba(255, 160, 0, 0.12);
+}
+.btn.btn-flat:active {
+    transition: .2s;
+    background: rgba(255, 160, 0, 0.24);
+    border: -1px solid rgba(255, 160, 0, 0.24);
+}
+.btn {
+    height: 36px;
+    display: inline-block;
+    font: 14px/36px "Roboto", sans-serif !important;
+    padding: 0 16px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
